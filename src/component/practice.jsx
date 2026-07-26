@@ -1,13 +1,14 @@
 import "../App.css";
 
 function practice(){
-    const Name="Mahtab"
+    const Name=<h1>Mahtab</h1>
+    const last=<h1>asghari</h1>
+    const age=<h1>17</h1>
     return(
         <div>
-        <h1>{name}</h1>
-        <h1>{name}</h1>
-        <h1>{name}</h1>
-        <p>hello world</p>
+        {name}
+        {last}
+        {age}
         </div>
     )
 }
