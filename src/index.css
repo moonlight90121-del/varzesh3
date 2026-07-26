@@ -1,0 +1,8 @@
+button, li{
+    font-size: 15px;
+    font-weight: bold;
+}
+body{
+    direction: rtl;
+    background-color: #d9d9d9;
+}
