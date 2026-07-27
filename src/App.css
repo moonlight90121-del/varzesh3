@@ -55,7 +55,32 @@ border-radius: 12px;
   margin:14px 300px 0px 300px ;
 }
 .mini-slider{
-  display: flex;
+ display: grid;
+grid-template-columns: auto auto;
   background-color: #fff;
-  border-radius: 14px;
+align-items: center;
+border-radius: 12px;
+}
+.pic1{
+  padding-Left:5px;
+  padding-Right:10px;
+}
+.pic2{
+  padding-Left:5px;
+  padding-Right:10px;
+  font-size: 20px;
+}
+.section3{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-radius: 12px;
+  margin:14px 300px 0px 300px ;
+}
+.mini-slider2{
+ display: grid;
+grid-template-columns: auto auto auto;
+gap: 20px;
+align-items: center;
+border-radius: 12px;
 }
