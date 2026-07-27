@@ -79,7 +79,21 @@ border-radius: 12px;
 }
 .mini-slider2{
  display: grid;
-grid-template-columns: auto auto auto;
+grid-template-columns: auto auto auto auto;
+gap: 20px;
+align-items: center;
+border-radius: 12px;
+}
+.section4{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-radius: 12px;
+  margin:14px 300px 0px 300px ;
+}
+.mini-slider3{
+ display: grid;
+grid-template-columns: auto auto auto auto;
 gap: 20px;
 align-items: center;
 border-radius: 12px;

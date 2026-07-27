@@ -9,6 +9,10 @@ import photo5 from "./assets/photo5.gif";
 import photo6 from "./assets/photo6.gif";
 import photo7 from "./assets/photo7.gif";
 import photo8 from "./assets/photo8.gif";
+import photo9 from "./assets/photo9.gif";
+import photo10 from "./assets/photo10.gif";
+import photo11 from "./assets/photo11.gif";
+import photo12 from "./assets/photo12.gif";
 function App() {
   return (
     <div className="varzesh">
@@ -64,8 +68,19 @@ function App() {
             <img style={{borderRadius:"12px"}} src={photo6}/>
             <img style={{borderRadius:"12px"}} src={photo7}/>
             <img style={{borderRadius:"12px"}} src={photo8}/>
+            <img style={{borderRadius:"12px"}} src={photo9}/>
               </div>
               </div>
+            <div className="section4">
+            <div className="mini-slider3">
+            <img style={{borderRadius:"12px"}} src={photo10}/>
+            <img style={{borderRadius:"12px"}} src={photo11}/>
+            <img style={{borderRadius:"12px"}} src={photo12}/>
+            <img style={{borderRadius:"12px" , width:"400px" , height:"200px"}} src={photo2}/>
+              </div>
+              </div>
+              
+
     </div>
   );
 }
